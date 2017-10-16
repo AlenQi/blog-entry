@@ -33,7 +33,6 @@ Item.prototype = {
     if (touch) return this.update(getCoordinates(touch, this.svg))
   }
 }
-
 ;[].slice
   .call(document.querySelectorAll('.item'), 0)
   .forEach(function(item, index) {
@@ -45,7 +44,6 @@ Item.prototype = {
       })
     )
   })
-
 ;[].slice
   .call(document.querySelectorAll('button'), 0)
   .forEach(function(button) {
